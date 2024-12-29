@@ -1,0 +1,369 @@
+/************banner**************/
+.Navbar{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+.NavUp{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.Nav1 p{
+  font-size: 20px;
+  color: #838383;
+  font-family: Poppins sans-serif;
+}
+.Nav2{
+  display: flex;
+
+}
+.Nav2-left{
+  font-size: 50px;
+  color: #838383;
+  font-family: Poppins sans-serif;
+  text-align: end;
+}
+.NavDown{
+  display: flex;
+  justify-content: space-around;
+}
+.nav-menu{
+  display: flex;
+  gap: 20px;
+}
+.link{
+  font-size: 20px;
+  color: #838383;
+  font-family: Poppins sans-serif;
+}
+.link:hover{
+  color: red;
+}
+.menu1{
+  display: block;
+}
+.menu2{
+  display: none;
+}
+/**********sellon***********/
+
+.banner{
+ 
+  height:600px;
+  width: 100%;
+  display: flex;
+  
+}
+.background{
+  background-image: url(./Images/banner.png);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.banner-left{
+  margin-top: 100px;
+  
+}
+.info1{
+  color: #212529;
+  font-family: Poppins sans-serif;
+}
+.info2{
+  color: #212529;
+  font-family: Poppins sans-serif;
+}
+.banner-right{
+  margin-top: 250px;
+  
+
+}
+.banner-info{
+  font-size: 18px;
+}
+.btn1{
+  border-radius: 20px;
+  background-color: #ED1C24;
+  padding: 10px;
+  color: white;
+  border: none;
+}
+.btn2{
+  border-radius: 20px;
+  border: 1px solid #ED1C24;
+  color:  #ED1C24;
+  padding: 10px;
+}
+.btn2:hover{
+  color: white;
+  background-color: #ED1C24;
+}
+.text1{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: bold;
+}
+.text2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: bold;
+}
+.Sellon3{
+  display: flex;
+  padding: 100px;
+}
+.Sellon3-left{
+  height: 200px;
+  width: 500px;
+}
+.Sellon3-right p{
+  font-size: 17px;
+  font-family: Poppins sans-serif;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.Sellon4{
+  background-color: #ED1C24;
+  height:300px;
+}
+.Sellon4 h1{
+  font-size: 40px;
+  color: #FFFF;
+  text-align: center;
+  padding-top: 80px;
+  font-family: Poppins sans-serif;
+}
+.Sellon4 p{
+  font-size: 20px;
+  text-align: center;
+  font-family: Poppins sans-serif;
+  padding-top: 30px;
+  color: #FFFF;
+}
+.Sellon5{
+  height:200px;
+}
+.Sellon5 h2{
+   text-align: center;
+   padding-top: 100px;
+   font-size: 32px;
+   font-family: Poppins sans-serif;
+   color: #A10005;
+  font-weight: 700;
+}
+.Sellon6{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+
+}
+.Sellon6-box1{
+  padding-top: 50px;
+  padding-left:20px;
+}
+.Sellon6-b1{
+  font-size: 18px;
+  font-weight: 600;
+  color: #ED1C24;
+}
+.Sellon6-b2{
+  font-size: 18px;
+  font-weight: 600;
+}
+.Sellon6-box2{
+  padding-top: 100px;
+}
+.Sellon6-box2 h1{
+  font-size: 40px;
+}
+.Sellon6-box2 p{
+  font-size: 18px;
+  margin-top: 30px;
+}
+.Sellon6-box3 img{
+  height: 500px;
+  width: 600px;
+}
+.Sellon7-box2{
+  background-color: #F2F4F8;
+  padding: 40px;
+}
+.slider-heading{
+  font-size: 35px;
+  font-family: Poppins sans-serif;
+  color: #A10005;
+  text-align: center;
+  font-weight: 700; 
+}
+.Sellon8{
+  background-image: url("https://1mdm.com/about/assets/footer-banner.png");
+  padding: 100px;
+}
+.Sellon8-footer{
+  text-align: center;
+  font-size:30px ;
+  font-weight: 700;
+}
+.Sellon8-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.btn01{
+  border-radius: 20px;
+  background-color:white;
+  padding: 8px;
+  color:  #ED1C24;
+  font-size: 20px;
+  font-family: Poppins sans-serif;
+  border: 1px solid white;
+}
+.btn02{
+  border-radius: 20px;
+  border: 1px solid white;
+  color:  white;
+  background-color: #ED1C24;
+  padding: 8px;
+  font-size: 20px;
+  font-family: Poppins sans-serif;
+  margin-left: 10px;
+}
+.btn01:hover{
+  background-color: #ED1C24;
+}
+.btn02:hover{
+  color:#ED1C24;
+  background-color: white;
+}
+.Sellon9{
+  display: flex;
+  background-color: #212529;
+  color: white;
+}
+.Sellon9-box1{
+  text-align: center;
+  margin-top: 50px;
+}
+.box1-info{
+  margin-top: 30px;
+  font-size: 18px;
+  color: #BBBBBB;
+  cursor: pointer;
+}
+.Sellon9-box2{
+  text-align: center;
+  margin-top: 50px;
+}
+.box2-info{
+  margin-top: 20px;
+  font-size: 17px;
+  color: #BBBBBB;
+  cursor: pointer;
+}
+.box2-p1{
+  font-size:22px;
+  color:white;
+  font-weight: 600;
+}
+.Sellon9-box3{
+  text-align: center;
+  margin-top: 50px;
+}
+.box3-info{
+  margin-top: 20px;
+  font-size: 17px;
+  color: #BBBBBB;
+  cursor: pointer;
+}
+.box3-p1{
+  font-size:22px;
+  color:white;
+  font-weight: 600;
+}
+.Sellon9-box4{
+  text-align: center;
+  margin-top: 50px;
+}
+.box4-info{
+  margin-top: 25px;
+  font-size: 17px;
+  color: #BBBBBB;
+  cursor: pointer;
+}
+.box4-p1{
+  font-size:22px;
+  color:white;
+  font-weight: 600;
+}
+.Sellon10{
+  padding: 10px;
+}
+.Sellon10 p{
+  font-family: Poppins sans-serif;
+  font-size: 18px;
+}
+.shopping{
+  z-index: 999;
+  position: fixed;
+  margin-left:1200px;}
+.btn11{
+
+  text-align: center;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #ED1C24;
+  color: white;
+  border: none;
+  margin-top: 5px
+}
+.btn11:hover{
+  color: #BBBBBB;
+}
+
+
+/**********media query************/
+@media (max-width: 600px){
+  .Navbar{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  }
+  .menu1{
+    display: none;
+  }
+  .menu2{
+    display: block;
+  }
+  .banner{
+    height: 700px;
+    justify-content: space-around;
+    display: flex;  
+    margin-top: 150px;
+  
+  }
+  
+  .banner-left{
+    margin-top: 10px; 
+  }
+  .info1{
+    color: #212529;
+    font-size: 10px;
+    font-family: Poppins sans-serif;
+  }
+  .info2{
+    color: #212529;
+    font-family: Poppins sans-serif;
+  }
+  .banner-right{
+    margin-top: 10px;
+    
+  }
+  
+  
+}
